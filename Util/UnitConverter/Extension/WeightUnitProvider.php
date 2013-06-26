@@ -16,7 +16,9 @@ class WeightUnitProvider extends BaseRatioUnitProvider {
      */
     public function getRatios() {
         return array(
-            'g'   => 1,
+            'g'  => 1,
+            'lb' => 453.59237,
+            'oz' => 28.35
         );
     }
 
