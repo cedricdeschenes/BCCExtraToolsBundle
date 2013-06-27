@@ -58,6 +58,11 @@ services:
     tags:
       - { name: bcc_extra_tools.ratio_unit_provider }
 
+  bcc_extra_tools.ratio_unit_provider.volume:
+    class: BCC\ExtraToolsBundle\Util\UnitConverter\Extension\VolumeUnitProvider
+    tags:
+      - { name: bcc_extra_tools.ratio_unit_provider }
+
   bcc_extra_tools.twig.extension:
     class: %bcc_extra_tools.extension.twig.class%
     calls:
