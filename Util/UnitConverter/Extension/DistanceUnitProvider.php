@@ -18,6 +18,7 @@ class DistanceUnitProvider extends BaseRatioUnitProvider {
         return array(
             'm'  => 1,
             '"'  => 0.0254,
+            'y'  => 0.9144
         );
     }
 
